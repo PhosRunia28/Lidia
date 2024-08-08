@@ -13,7 +13,7 @@ module.exports = {
       center: true,
       padding: "2rem",
       screens: {
-        lg: "1150px",
+        lg: "1300px",
       },
     },
     fontSize: {
@@ -26,7 +26,7 @@ module.exports = {
       "3xl": ["28px", { lineHeight: "40px" }],
       "4xl": ["40px", { lineHeight: "54px" }],
       "5xl": ["48px", { lineHeight: "64px" }],
-      "6xl": ["72px", { lineHeight: "98px" }],
+      "6xl": ["72px", { lineHeight: "89px" }],
     },
     extend: {
       colors: {

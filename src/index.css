@@ -6,3 +6,10 @@
 body {
   @apply font-plusJakartaSans;
 }
+
+.clipped {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 100%);
+}
+.clipped2 {
+  clip-path: polygon(35% 9%, 100% 0, 100% 100%, 0 100%, 0 85%);
+}
