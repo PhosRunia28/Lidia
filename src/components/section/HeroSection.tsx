@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 export default function HeroSection() {
   return (
     <section className="container">
-      <div className="flex flex-col-reverse gap-10 md:flex-row md:items-center lg:items-start lg:gap-0">
+      <div className="mb-20 flex flex-col-reverse gap-10 sm:mb-32 md:flex-row md:items-center lg:mb-40 lg:items-start lg:gap-0">
         {/* left */}
         <div className="relative z-20 flex w-full flex-col gap-10">
           <h2 className="w-full max-w-md text-5xl font-extrabold leading-tight text-heading lg:max-w-full xl:text-6xl">
@@ -48,9 +48,11 @@ export default function HeroSection() {
             className="w-full max-w-sm bg-cover bg-center lg:absolute lg:bottom-[25px] lg:right-[46%] lg:max-w-36 lg:translate-x-1/2 xl:right-[42%] xl:max-w-40"
           />
           {/* background rounded*/}
-          <div className="clipped2 absolute bottom-0 left-0 -z-10 ml-12 hidden h-full w-full rounded-bl-[3rem] bg-primary/90 lg:block"></div>
+          <div className="clipped2 absolute bottom-0 left-0 -z-10 ml-8 hidden h-full w-full rounded-bl-[3rem] bg-primary/90 lg:block"></div>
         </div>
       </div>
+      {/* shadow */}
+      <div className="absolute bottom-0 right-0 -z-20 ml-12 hidden h-[10%] w-[46%] rounded-[3rem] bg-white shadow-[20px_35px_40px_0px_rgba(0,0,0,0.25)] lg:block"></div>
       {/* background */}
       <div className="clipped absolute right-0 top-0 hidden h-full w-full bg-primary shadow-lg lg:block lg:w-1/2"></div>
     </section>
