@@ -43,7 +43,7 @@ export default function Service({ service }: Props) {
         <h4 className="w-full max-w-sm text-3xl font-medium sm:mx-auto sm:text-center lg:mx-0 lg:max-w-[23rem] lg:text-left">
           {renderTitle()}
         </h4>
-        <div className="space-y-6">
+        <div className="space-y-5">
           <p
             className="w-full max-w-lg text-md text-desc sm:mx-auto lg:mx-0 lg:max-w-[25rem]"
             style={{ lineHeight: 1.9 }}
