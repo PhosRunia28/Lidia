@@ -1,4 +1,6 @@
+import Copyright from "./components/section/Copyright";
 import FeatureSection from "./components/section/FeatureSection";
+import FooterSection from "./components/section/FooterSection";
 import Header from "./components/section/Header";
 import HeroSection from "./components/section/HeroSection";
 import LocationSection from "./components/section/LocationSection";
@@ -15,6 +17,8 @@ function App() {
       <ServiceSection />
       <ReviewSection />
       <LocationSection />
+      <FooterSection />
+      <Copyright />
     </>
   );
 }

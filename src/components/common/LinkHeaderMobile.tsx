@@ -39,7 +39,7 @@ export default function LinkHeaderMobile() {
               ))}
             </ul>
             <div>
-              <Button variant="outline" className="">
+              <Button variant="outline" className="border-primary">
                 Login
               </Button>
             </div>
