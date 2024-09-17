@@ -11,9 +11,7 @@ This is a [Figma File](https://www.figma.com/community/file/1334838385104638513/
 
 ### Built with
 
-- React
-- Typescript
+- React + Typescript + Vite
 - Framer Motion
 - TailwindCSS
-- Vite
 - Shadcn-ui

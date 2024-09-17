@@ -7,7 +7,7 @@ export default function ServiceSection() {
     <section className="container">
         <div className="mb-32 flex flex-col gap-14 md:mb-36 md:gap-20 lg:mb-40">
           <TitleSection title="🚀• The Services for You" subtitle="services" />
-          <div className="flex flex-col gap-14 md:gap-24 lg:gap-36">
+          <div className="flex flex-col gap-14 md:gap-24 lg:gap-36 overflow-hidden">
             {Services.map((service, index) => (
               <Service service={service} key={index} />
             ))}
